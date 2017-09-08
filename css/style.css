@@ -1,0 +1,74 @@
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.mainDiv{
+  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504754015/Chocolateria/2_aqoctq.jpg) no-repeat center center fixed; 
+}
+
+.mainDiv2{
+  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504754031/Chocolateria/4_wr2owa.jpg) no-repeat center center fixed; 
+}
+
+.mainDiv , .mainDiv2{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin: 2rem 0px 2rem 0px;
+}
+
+
+
+footer{
+}
+
+#logo{
+    margin: 10px 0px 10px 50px;
+}
+
+
+.nav>li {
+    text-align: center;
+}
+
+.main-text{
+    padding-top: 2rem;
+}
+
+.main-title{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.about-text-history{
+    background-color: rgba(255, 255, 255, 0.54);
+    padding: 15px 15px;
+    border-radius: .28571429rem;
+    font-weight: 600;
+}
+
+.quick-access{
+    padding-top: 2rem;
+}
+.navbar, .navbar-default{
+    margin-bottom: 0;
+}
+
+.filter{
+    padding: 2rem;
+    border-radius: .28571429rem;
+    background-color:rgba(255, 255, 255, 0.54);
+}
+.btn-buy{
+    width: 100%;
+    background-color: rgba(144, 70, 25, 0.79);
+    border-color: #4b1d0a;
+    color: #f5f5f5;
+}
