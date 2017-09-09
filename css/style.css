@@ -7,11 +7,11 @@
 
 
 .mainDiv{
-  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504754015/Chocolateria/2_aqoctq.jpg) no-repeat center center fixed; 
+  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504878914/Chocolateria/compress/2-min.jpg) no-repeat center center fixed; 
 }
 
 .mainDiv2{
-  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504754031/Chocolateria/4_wr2owa.jpg) no-repeat center center fixed; 
+  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504878915/Chocolateria/compress/4-min.jpg) no-repeat center center fixed; 
 }
 
 .mainDiv , .mainDiv2{
@@ -30,7 +30,7 @@ footer{
 }
 
 #logo{
-    margin: 10px 0px 10px 50px;
+    margin: 5px 0px 5px 20px;
 }
 
 
@@ -39,7 +39,25 @@ footer{
 }
 
 .main-text{
+    font-size: 2rem;
+    font-weight: 600;
     padding-top: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-text-catalog{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+#choco{
+font-weight: 900;
+font-size: 4rem;
+text-shadow: 0px 0px 22px rgba(60, 60, 60, 1);
+font-family: 'Playfair Display Bold Italic' ;
+padding-top: 5rem;
 }
 
 .main-title{
@@ -48,7 +66,7 @@ footer{
 }
 
 .about-text-history{
-    background-color: rgba(255, 255, 255, 0.54);
+    background-color: rgba(255, 255, 255, 0.70);
     padding: 15px 15px;
     border-radius: .28571429rem;
     font-weight: 600;
@@ -64,11 +82,26 @@ footer{
 .filter{
     padding: 2rem;
     border-radius: .28571429rem;
-    background-color:rgba(255, 255, 255, 0.54);
+    background-color:rgba(255, 255, 255, 0.70);
 }
 .btn-buy{
     width: 100%;
     background-color: rgba(144, 70, 25, 0.79);
     border-color: #4b1d0a;
     color: #f5f5f5;
+}
+
+.text-bold,.card-text,.card-title{
+    text-align: center;
+}
+
+.checkbox{
+	padding: 1rem 0px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#filter-title{
+	font-weight: bolder;
+    font-size: 1.5rem;
 }
