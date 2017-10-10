@@ -14,6 +14,14 @@
   background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1504878915/Chocolateria/compress/4-min.jpg) no-repeat center center fixed; 
 }
 
+.mainDivContact{
+  background: url(http://res.cloudinary.com/dheuogrxg/image/upload/v1507521478/Chocolateria/Noise-Light-Grey-Tileable-Pattern-For-Website-Background.jpg) repeat center center; 
+}
+
+.DivContact{
+    background-color: rgba(255, 255, 255, 0.70);
+}
+
 .mainDiv , .mainDiv2{
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -49,6 +57,24 @@ footer{
     font-size: 3rem;
     font-weight: 700;
     padding-top: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+#selectSucursales{
+    font-weight: 700;
+    padding-top: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-text-contact{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0 0 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+#selectSucursales, #contactInfo{
+    padding: 2rem 1rem 0 0;
     font-family: 'Playfair Display', serif;
 }
 
@@ -105,3 +131,18 @@ padding-top: 5rem;
 	font-weight: bolder;
     font-size: 1.5rem;
 }
+
+.contactForm{
+    margin: 15px 0px 15px 0px;
+}
+
+#map{
+    margin: 15px 0px 15px 0px;
+    width:100%;
+    height:400px;
+}
+
+#d_ubicacion, #d_telefono, #d_correo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+} 
