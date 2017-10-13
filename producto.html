@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -70,52 +72,26 @@
     </header>
 
     <div class="container-fluid">
-        <main class="mainDiv">
+        <main>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-4 col-sm-12">
-                        <div class="main-text">
-                            ...todo el mundo tiene un precio, el mío es el
-                            <div id="choco" class="col-md-offset-2">CHOCOLATE</div>
+                <div class="mainDivContact" style="margin: 50px 0px 50px 0px;">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12" aling="center">
+                            <h1 id="tit1">(Nombre de Producto)</h1>
                         </div>
-                        <div class="row quick-access">
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <a href="catalog.html" class="img-wrapper">
-                                        <img class="card-img-top" src="http://res.cloudinary.com/dheuogrxg/image/upload/v1504878913/Chocolateria/compress/8-min.jpg">
-                                    </a>
-                                    <div class="card-block">
-                                        <a href="catalog.html" class="">
-                                            <h5 class="text-bold">Dulces</h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <a href="catalog.html" class="img-wrapper">
-                                        <img class="card-img-top" src="http://res.cloudinary.com/dheuogrxg/image/upload/v1504878913/Chocolateria/compress/6-min.jpg">
-                                    </a>
-                                    <div class="card-block">
-                                        <a href="catalog.html" class="">
-                                            <h5 class="text-bold">Repostería</h5>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mt-4">
-                                <div class="card">
-                                    <a href="contact.html" class="img-wrapper">
-                                        <img class="card-img-top" src="http://res.cloudinary.com/dheuogrxg/image/upload/v1504878916/Chocolateria/compress/9-min.jpg">
-                                    </a>
-                                    <div class="card-block">
-                                        <a href="contact.html" class="">
-                                            <h5 class="text-bold">Sucursales</h5>
-                                        </a>
-                                    </div>
-                                </div>
+                        <div class="col-md-4 col-sm-12" aling="center">
+                                <img class="product-img" src="http://res.cloudinary.com/dheuogrxg/image/upload/v1504878913/Chocolateria/compress/6-min.jpg">                                
+                        </div>
+                        <div class="col-md-8 col-sm-12" aling="center">
+                            <div class="product-descrip">
+                                <h1>Description </h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe temporibus necessitatibus quo sed numquam est ea ut error libero earum quas expedita quos totam neque modi, dignissimos perferendis recusandae.</p> 
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe temporibus necessitatibus quo sed numquam est ea ut error libero earum quas expedita quos totam neque modi, dignissimos perferendis recusandae.</p> 
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe temporibus necessitatibus quo sed numquam est ea ut error libero earum quas expedita quos totam neque modi, dignissimos perferendis recusandae.</p>                                 
+                                <button type="button" class="btn btn-default btn-buy">Agregar al carrito</button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -151,10 +127,11 @@
         </footer>
 
         <div>
-
+            
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                 crossorigin="anonymous"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
             <script src="js/index.js"></script>
 </body>
 
